@@ -29,10 +29,10 @@ export default function RootLayout({
     <html lang="en">
       
       <body className="bg-black text-white">
-        
-        <div
+      <Navbar />
+        <main
         className="relative overflow-hidden">{children}
-        </div>
+        </main>
           
       </body>
     </html>

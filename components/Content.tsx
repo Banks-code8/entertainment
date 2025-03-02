@@ -12,7 +12,7 @@ const Content = () => {
     <section>
     <div className=" flex items-center justify-center mt-10 ">
         <div className=" border-4 border-[#FFFFFF] border-box  px-20
-         relative w-[1160px] h-[319px] overflow-hidden rounded-3xl bg-[#D9D9D91A] shadow-[inset_20px_-20px_40px] shadow-[#A5A5A51A]   ">
+         relative w-[1160px] h-[319px] overflow-hidden rounded-3xl bg-[#D9D9D91A] shadow-[inset_20px_-20px_40px] shadow-[#A5A5A51A] ">
           <h2 className="regular capitalize text-center  mt-10
           text-[33px]">
             <strong>About</strong>

@@ -1,9 +1,11 @@
-import Cards from "./Cards"
+
 import Vector from "./Vector"
 import { MdOutlineArrowCircleRight } from "react-icons/md";
 import { MdOutlineArrowCircleLeft } from "react-icons/md";
 import Image from "next/image";
-import myImage from "../public/Glass window (1).png"
+import img1 from "../public/item_img1.png"
+import img2 from "../public/item_img2.png"
+import img3 from "../public/item_img3.png"
 
 
 const Items = () => {
@@ -28,18 +30,24 @@ const Items = () => {
          
             <div className='flex justify-center w-full gap-10' >            
             <Image 
-            src= {myImage}
-            alt="map"          
+            src= {img1}
+            alt="map" 
+            className="w-[250px] h-[350px] rounded-[20px] border-3
+             border-[#D9D9D9]/30  backdrop-blur-sm"         
             />
             
             <Image 
-            src= {myImage}
-            alt="map"            
+            src= {img2}
+            alt="map"
+            className="w-[300px] h-[400px] rounded-[20px] border-3
+            border-[#D9D9D9]/30  backdrop-blur-sm"             
             />
           
             <Image 
-            src= {myImage}
-            alt="map"         
+            src= {img3}
+            alt="map"
+            className="w-[250px] h-[350px] rounded-[20px] border-3
+             border-[#D9D9D9]/30  backdrop-blur-sm"          
             /> 
             </div>
             

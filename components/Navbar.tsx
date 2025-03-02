@@ -6,8 +6,9 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div  >
-    <nav className='absolute z-10 flex  justify-between items-center w-full pl-6 pt-8 bg-transparent'>
+    <div className='relative'>
+    <nav className='absolute z-10 flex  justify-between items-center w-full pl-6 pt-8 
+    bg-transparent'>
         {/*logo */}
         <Link href="/">
         <Image
@@ -18,8 +19,10 @@ const Navbar = () => {
         />
         </Link>
         {/* Menu */}
-         <ul className="  p-4 items-center w-[864px] h-[95px] bg-transparent 
-         gap-12 shadow-lg shadow-[#000000] flex justify-center">
+         <ul className="  p-4 items-center w-[864px] h-[95px]
+         gap-12 shadow-[0_4px_4px] shadow-[#000000]/40 flex justify-center 
+         bg-gradient-to-r from-[#D9D9D9]/20 to-[#000000]/102  backdrop-blur-sm  
+          ">
         
           <Link href="/">
             Home
@@ -46,7 +49,7 @@ const Navbar = () => {
           </Link>
           
 
-        <button className='border-2 border-white rounded-[10px] p-4 '>
+        <button className='border-2 border-white rounded-[10px]  w-[125px] h-[36px]'>
             newsletter
         </button>
         </ul>

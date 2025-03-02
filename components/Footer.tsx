@@ -5,7 +5,8 @@ import { FaTiktok, FaXTwitter, FaYoutube } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-   <div className='regular mt-10 p-5'>
+    <footer>
+   <div className='regular mt-10 p-10'>
        {/* icons */}
     <div className='regular flex justify-start mt-5 pl-[20px] gap-5 '>
         <FiInstagram
@@ -31,6 +32,7 @@ const Footer = () => {
         
     </div>
    </div>
+   /</footer>
   )
 }
 
