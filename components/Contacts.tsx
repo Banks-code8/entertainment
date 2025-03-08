@@ -3,49 +3,51 @@ import { FaPhoneVolume } from "react-icons/fa6";
 
 const Contacts = () => {
   return (
-    <div>
-         <div className='flex gap-20 mt-10 justify-center'>
-         <div>
-            <div className="relative  bg-gray-500 rounded-full p-2 w-17 justify-center">
-         <FaPhoneVolume  
-            size={50}
-            />
-            </div>
-            
-            
-            <p>Send an Email</p>
-            <p>Info@Hungryboizrecords.com</p>
-            
-        </div>
+    <section className="container py-12 px-6 mx-auto">
+         <div className='relative flex-col grid grid-cols-1 xl:grid-cols-3 gap-20 mt-10 justify-center'>
          
-        <div>
-            <div className="bg-gray-500 rounded-full p-2 w-17">
-         <MdMarkEmailUnread
-            size={50}
-            />
+            <div className="relative  w-full p-5 ">
+               <div className="flex justify-center">
+               <FaPhoneVolume  
+               size={50}
+               /> 
+               </div>
+
+               <div  className="text-center mt-5">   
+               <h1>Call Us</h1>
+               <p>Info@Hungryboizrecords.com</p>
+               </div>
             </div>
             
-            <div>
-            <p>Send an Email</p>
-            <p>Info@Hungryboizrecords.com</p>
+            
+            <div className="relative  w-full p-5 ">
+               <div className="flex justify-center">
+               <  MdMarkEmailUnread  
+               size={50}
+               /> 
+               </div>
+
+               <div className="text-center mt-5">   
+               <h1>Message Us</h1>
+               <p>Info@Hungryboizrecords.com</p>
+               </div>
             </div>
-        </div>
          
-        <div>
-            <div className="bg-gray-500 rounded-full p-2 w-17">
-         <FaPhoneVolume  
-            size={50}
-            />
-            </div>
-            
-            <div>
-            <p>Send an Email</p>
-            <p>Info@Hungryboizrecords.com</p>
+            <div className="relative  w-full p-5 ">
+               <div className="flex justify-center">
+               <FaPhoneVolume  
+               size={50}
+               /> 
+               </div>
+
+               <div className="text-center mt-5">   
+               <h1>Call Us</h1>
+               <p>Info@Hungryboizrecords.com</p>
+               </div>
             </div>
         </div>
-        
-          </div> 
-    </div>
+      
+    </section>
   )
 }
 

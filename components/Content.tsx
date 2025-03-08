@@ -9,53 +9,54 @@ import { PiSoundcloudLogoFill } from "react-icons/pi";
 
 const Content = () => {
   return (
-    <section>
-    <div className=" flex items-center justify-center mt-10 ">
-        <div className=" border-4 border-[#FFFFFF] border-box  px-20
-         relative w-[1160px] h-[319px] overflow-hidden rounded-3xl bg-[#D9D9D91A] shadow-[inset_20px_-20px_40px] shadow-[#A5A5A51A] ">
-          <h2 className="regular capitalize text-center  mt-10
-          text-[33px]">
-            <strong>About</strong>
-          </h2>
+        <section className="container py-12 px-6 mx-auto">
+              <div className=" flex items-center justify-center ">
+                  <div className="relative border-4 border-[#FFFFFF] border-box p-5
+                  overflow-hidden rounded-3xl bg-[#D9D9D91A] 
+                  shadow-[inset_20px_-20px_40px] shadow-[#A5A5A51A] ">
+                      <h2 className="regular capitalize text-center font-bold mt-5 text-3xl">
+                        About
+                      </h2>
 
-        
-          <p className=" relative w-[862px] mt-5 w- text-center ">
-          Sign up to receive alerts about new merchandise drops, 
-          new music releases and exclusive VIP deals for concerts and meet and greets
-          </p>
-          <p className="relative w-[862px] mt-5 text-white text-center ">
-          Sign up to receive alerts about new merchandise drops,
-           new music releases and exclusive VIP deals for concerts and meet and greets
-          </p>
-          
-          {/* icons */}
-          <div className='relative flex justify-center mt-5 gap-5'>
-          <FiInstagram 
-          size={50}
-          />
-          <FaXTwitter 
-          size={50}
-          />
-          <FaYoutube
-          size={50}
-          />
-          <FaTiktok 
-          size={50}
-          />
-          <SiApplemusic
-          size={50}
-          />
-          <FaSpotify
-          size={50}
-          />
-          <PiSoundcloudLogoFill 
-          size={50}
-          />
+                  <div className="py-5 xl:flex xl:flex-col gap-5 xl:mx-50">
+                    <p className=" text-center ">
+                    Sign up to receive alerts about new merchandise drops, 
+                    new music releases and exclusive VIP deals for concerts and meet and greets
+                    </p>
+                    <p className="text-center ">
+                    Sign up to receive alerts about new merchandise drops,
+                    new music releases and exclusive VIP deals for concerts and meet and greets
+                    </p>
+                    </div>
+                    
+                    {/* icons */}
+                    <div className='relative flex justify-center w-full xl:py-5 gap-5 xl:gap-10'>
+                    <FiInstagram 
+                    size={50}
+                    />
+                    <FaXTwitter 
+                    size={50}
+                    />
+                    <FaYoutube
+                    size={50}
+                    />
+                    <FaTiktok 
+                    size={50}
+                    />
+                    <SiApplemusic
+                    size={50}
+                    />
+                    <FaSpotify
+                    size={50}
+                    />
+                    <PiSoundcloudLogoFill 
+                    size={50}
+                    />
 
-          </div>
-        </div>
-    </div>
-    </section>
+                    </div>
+                  </div>
+              </div>
+        </section>
   )
 }
 

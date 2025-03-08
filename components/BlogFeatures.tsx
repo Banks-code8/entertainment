@@ -7,21 +7,25 @@ import img4 from "../public/pricing.png"
 
 const BlogFeatures = () => {
   return (
-    <section>
-      <div className='grid grid-cols-2 gap-5 p-20 '>
+    <section className='container py-12 px-6 mx-auto'>
+      <div className='grid grid-col-1 xl:grid-cols-2 md:justify-center gap-5  '>
         <div>
         
             <Image 
             src={img1}
             alt='blog_img1'
-            className='w-[605px]  h-[676px] rounded-[20px]'
+            width={605}
+            height={500}
+            className='xl:w-[605px]  xl:h-[676px] rounded-[20px]'
             />
           
 
           <Image 
             src={img2}
             alt='blog_img2'
-            className='w-[605px]  h-[500px] rounded-[20px] mt-5'
+            width={605}
+            height={500}
+            className='xl:w-[605px]  xl:h-[500px] rounded-[20px] mt-5'
             />
         </div>
 
@@ -29,13 +33,17 @@ const BlogFeatures = () => {
          <Image 
             src={img3}
             alt='blog_img3'
-            className='w-[605px]  h-[500px] rounded-[20px]'
+            width={605}
+            height={500}
+            className=' xl:w-[605px]  xl:h-[500px] rounded-[20px]'
             />
           
           <Image 
             src={img4}
             alt='blog_img4'
-            className='w-[605px]  h-[676px] rounded-[20px] mt-5'
+            width={605}
+            height={500}
+            className='xl:w-[605px]  xl:h-[676px] rounded-[20px] mt-5'
             />
         </div>
 

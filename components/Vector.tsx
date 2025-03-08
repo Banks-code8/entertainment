@@ -4,7 +4,8 @@ interface VectorProps{
 
 const Vector = ({title}: VectorProps) => {
   return (
-    <button className="w-[348px] h-[88.68px] bg-gray-500 mt-5 rounded-r-full">     
+    <button className=" p-5 w-50 lg:w-[348px] lg:h-[88.68px]
+    text-2xl bg-gray-500 rounded-r-full">     
           {title}
         </button>
     

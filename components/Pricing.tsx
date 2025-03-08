@@ -7,13 +7,13 @@ import { CiHeart } from "react-icons/ci";
 
 const Pricing = () => {
   return (
-    <section className=' relative mt-20'>
-    <div>
+    <section className='container mt-10 mx-auto py-12 px-6'>
+    <div className='grid grid-cols-1 xl:grid-cols-2 w-full xl:flex xl:flex-col gap-5'>
       {/* 1 */}
-      <div className='p-4 flex justify-between  w-full font'>
-        <p className='text-[80px]'>
+      <div className='xl:flex justify-between'>
+        <h1 className='text-[80px]'>
         LATEST ITEMS
-        </p>
+        </h1>
 
         <Vector
         title='View all items'
@@ -21,7 +21,7 @@ const Pricing = () => {
       </div>
 
     {/* 2 */}
-      <div className=' w-full p-4 mt-2 flex gap-2 justify-center'>
+      <div className='grid grid-cols-2 w-full mt-2 lg:grid-cols-4 gap-2 '>
       <figure className='border-3 border-white bg-white text-black rounded-[10px]'>
           <Image
           src={myImages}
