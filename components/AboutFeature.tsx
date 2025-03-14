@@ -9,28 +9,28 @@ import { FaMusic } from "react-icons/fa6";
 const AboutFeature = () => {
   return (
     <section className='container py-12 px-6 mx-auto'>
-        <div className='grid grid-cols-1 xl:grid-cols-2 xl:flex xl:flex-col gap-20'>
+        <div className='grid grid-cols-1 md:grid-cols-2 md:flex md:flex-col gap-20'>
           
           <div>
-            <div className='xl:flex '>
+            <div className='md:flex '>
                 <div className='w-full justify-center '>
                     <Image
                     src={myImage}
                     alt='aboutFeature img1'
-                    className='w-full  md:w-full xl:w-[401px] xl:h-[488px]'
+                    className='w-full  md:w-[401px] md:h-[388px] xl:h-[488px] '
                     />
                 </div>
                 
                 
-                <div className='relative  flex flex-col gap-5'>
+                <div className='relative flex flex-col gap-5'>
                     <div>
-                        <h1 className='text-3xl md:text-[80px] lg:text-[80px] text-[#D9D9D9CC]'>
+                        <h1 className='text-3xl md:text-6xl xl:text-[80px] text-[#D9D9D9CC]'>
                         Entertainment at its Finest
                         </h1>
                     </div>
 
                     <div>
-                        <p className=' xl:mr-[70px]'>
+                        <p className=' md:mr-[70px]'>
                         Hungryboiz's taste for delivering the utmost value, has
                         inspired the company's expansion into the fastest growing
                         entertainment brand
@@ -58,16 +58,16 @@ const AboutFeature = () => {
             </div>
          
             <div>
-            <div className='relative  xl:flex justify-center '>
+            <div className='relative  md:flex justify-center '>
                 <div className='flex flex-col w-full gap-10 '>
                     <div>
-                        <h1 className='text-3xl xl:mr-20 md:text-[80px] lg:text-[80px] text-[#D9D9D9CC]'>
+                        <h1 className='text-3xl xl:mr-20 md:text-6xl xl:text-[80px] text-[#D9D9D9CC]'>
                         Creating Exceptional Music
                         </h1>
                     </div>
 
                     <div>
-                        <p className=' xl:mr-[20rem]'>
+                        <p className=' md:mr-[10rem]'>
                         Hungryboiz's is a music label dedicated to producing and promoting 
                         exceptional music that speaks to the soul. 
                         We are passionate about music and strive to 
@@ -93,7 +93,7 @@ const AboutFeature = () => {
                             <Image
                             src={myImage}
                             alt='aboutFeature img1'
-                            className='w-full  md:w-full xl:w-[601px] xl:h-[488px]'       
+                            className='w-full md:w-[601px] md:h-[388px] xl:h-[488px]'       
                             />
                         </div>
                     </div>

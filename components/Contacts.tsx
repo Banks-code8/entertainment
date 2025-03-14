@@ -4,7 +4,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 const Contacts = () => {
   return (
     <section className="container py-12 px-6 mx-auto">
-         <div className='relative flex-col grid grid-cols-1 xl:grid-cols-3 gap-20 mt-10 justify-center'>
+         <div className='relative flex-col grid grid-cols-1 md:grid-cols-3 gap-20 mt-10 justify-center'>
          
             <div className="relative  w-full p-5 ">
                <div className="flex justify-center">

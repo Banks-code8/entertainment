@@ -1,12 +1,9 @@
 import AboutFeature from "@/components/AboutFeature";
-import Footer from "@/components/Footer";
 import MenuContent from "@/components/MenuContent";
-import Navbar from "@/components/Navbar";
 
-
-
-
-
+export const metadata = {
+  title: "About HungryBoiz"
+};
 
 export default function about() {
     return (
@@ -16,8 +13,6 @@ export default function about() {
       subtitle="Hungryboiz Records is an African leading entertainment company."
       />
      <AboutFeature />
-     <Footer />
-     
       </>
     );
   }

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='container py-12 px-6'>
         <div className='flex flex-col gap-5'>
             {/* icons */}
-            <div className='flex justify-start pl-[20px] gap-5 '>
+            <div className='flex justify-start  gap-5 '>
                 <FiInstagram
                 size={50}
                 />

@@ -8,7 +8,7 @@ import img4 from "../public/pricing.png"
 const BlogFeatures = () => {
   return (
     <section className='container py-12 px-6 mx-auto'>
-      <div className='grid grid-col-1 xl:grid-cols-2 md:justify-center gap-5  '>
+      <div className='grid grid-col-1 md:grid-cols-2 items-center justify-center gap-5  '>
         <div>
         
             <Image 
@@ -16,7 +16,7 @@ const BlogFeatures = () => {
             alt='blog_img1'
             width={605}
             height={500}
-            className='xl:w-[605px]  xl:h-[676px] rounded-[20px]'
+            className='md:w-[605px]  md:h-[676px] rounded-[20px]'
             />
           
 
@@ -25,7 +25,7 @@ const BlogFeatures = () => {
             alt='blog_img2'
             width={605}
             height={500}
-            className='xl:w-[605px]  xl:h-[500px] rounded-[20px] mt-5'
+            className='md:w-[605px]  md:h-[500px] rounded-[20px] mt-5'
             />
         </div>
 
@@ -35,7 +35,7 @@ const BlogFeatures = () => {
             alt='blog_img3'
             width={605}
             height={500}
-            className=' xl:w-[605px]  xl:h-[500px] rounded-[20px]'
+            className=' md:w-[605px]  md:h-[500px] rounded-[20px]'
             />
           
           <Image 
@@ -43,7 +43,7 @@ const BlogFeatures = () => {
             alt='blog_img4'
             width={605}
             height={500}
-            className='xl:w-[605px]  xl:h-[676px] rounded-[20px] mt-5'
+            className='md:w-[605px]  md:h-[676px] rounded-[20px] mt-5'
             />
         </div>
 

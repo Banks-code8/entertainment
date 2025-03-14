@@ -1,8 +1,10 @@
 import ContactFeature from "@/components/ContactFeature";
 import Contacts from "@/components/Contacts";
-import Footer from "@/components/Footer";
 import MenuContent from "@/components/MenuContent";
-import Navbar from "@/components/Navbar";
+
+export const metadata = {
+    title: "Contact HungryBoiz"
+  };
 
 export default function Blog() {
     return(
@@ -13,7 +15,7 @@ export default function Blog() {
         />
         <Contacts />
         <ContactFeature />
-        <Footer />
+        
         </>
     )
 }

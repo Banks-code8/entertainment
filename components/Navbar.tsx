@@ -18,60 +18,60 @@ const Navbar = () => {
     <div className='relative'>
      
     <nav className='absolute z-10 flex justify-between items-center  
-    md:px-6 md:max-w-full w-full  pt-4 px-2 bg-transparent'>
+     md:max-w-full w-full  pt-4  bg-transparent'>
         {/*logo */}
         <Link href="/">
         <Image
         src={Logo}
         alt='logo'
-        className=" w-[120px] md:w-[212] xl:w-[418px] xl:h-[127px]"  
+        className=" w-[120px] px-2 md:w-[218px] md:h-[65px] xl:w-[418px] xl:h-[127px]"  
         />
         </Link>
         {/* Menu */}
         
-         <ul className="   p-4 items-center w-[864px] h-[95px]  xl:flex hidden
-         gap-12 shadow-[0_4px_4px] shadow-[#000000]/40  justify-center 
+         <ul className=" items-center justify-center cursor-pointer md:w-[764px] md:h-[65px] xl:w-[864px] xl:h-[95px]  md:flex hidden
+         gap-10 shadow-[0_4px_4px] shadow-[#000000]/40   
          bg-gradient-to-r from-[#D9D9D9]/20 to-[#000000]/102  backdrop-blur-sm  
           ">
         
           <Link href="/"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             Home
           </Link>
 
           <Link href="/aboutpage"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             About Us
           </Link>
 
           <Link href="/"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             Artist
           </Link>
 
           <Link href="/blogpage"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             Blog
           </Link>
 
           <Link href="/"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             Shop
           </Link>
 
           <Link href="/contactpage"
-          className="hover:underline"
+          className="hover:underline hover:font-bold"
           >
             Contact Us
           </Link>
           
 
-        <button className='border-2 border-white rounded-[10px]  w-[125px] h-[36px]'>
+        <button className='border-2 border-white rounded-[10px]  w-[125px] h-[36px] hover:font-bold'>
             newsletter
         </button>
 
@@ -84,7 +84,7 @@ const Navbar = () => {
        <div>
 
           <button 
-          className=" lg:hidden"
+          className="inline-block cursor-pointer md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <div>X</div> : <CiMenuFries size={22} />}

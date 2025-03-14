@@ -5,7 +5,7 @@ type menuProps = {
 
 const MenuContent = ({title, subtitle}: menuProps) => {
   return (
-    <section className="container py-20 px-6 xl:mt-50 xl:mb-20 mx-auto">
+    <section className="container py-20 px-6 md:mt-40 md:mb-10 mx-auto">
     <div className="flex flex-col w-full text-center">
         
         <p className="text-4xl md:text-[80px] lg:text-[80px]">

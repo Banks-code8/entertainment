@@ -1,7 +1,9 @@
 import BlogFeatures from "@/components/BlogFeatures";
-import Footer from "@/components/Footer";
 import MenuContent from "@/components/MenuContent";
-import Navbar from "@/components/Navbar";
+
+export const metadata = {
+  title: "HungryBoiz Blog"
+};
 
 export default function Blog() {
     return(
@@ -11,7 +13,7 @@ export default function Blog() {
       subtitle="Get the latest news about Hungryboiz Entertainment."
       />
       <BlogFeatures />
-        <Footer />
+        
         </>
     )
 }

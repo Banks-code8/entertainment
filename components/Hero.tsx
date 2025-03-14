@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='relative w-full overflow-hidden '>
 
     <div className='relative '>
-    <Image className='w-full h-full bg-cover bottom-20'
+    <Image className='w-full h-full bg-cover bg-no-repeat'
     src={myImage}
     alt='bg_img'
     width={1440}
